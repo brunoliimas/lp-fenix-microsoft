@@ -164,6 +164,29 @@ body {
   background-color: #0d6786 !important;
   border-color: #0d6786 !important;
 }
+
+
+.btn-form,
+.btn-form:active {
+  background-color: #5aac98 !important;
+  border-color: #5aac98 !important;
+  color: #ffffff !important;
+}
+.btn-form:hover,
+.btn-form:focus,
+.btn-form.focus,
+.btn-form.active {
+  color: #5aac98 !important;
+  background-color: #ffffff !important;
+  border-color: #5aac98 !important;
+}
+.btn-form.disabled,
+.btn-form:disabled {
+  color: #ffffff !important;
+  background-color: #0d6786 !important;
+  border-color: #0d6786 !important;
+}
+
 .btn-secondary,
 .btn-secondary:active {
   background-color: #5aac98 !important;
@@ -726,12 +749,12 @@ pre {
   box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
 }
 .mbr-form .input-group-btn button[type="submit"] {
-  border-radius: 100px !important;
+  border-radius: 15px !important;
   padding: 1rem 3rem;
 }
-.mbr-form .input-group-btn button[type="submit"]:hover {
+/* .mbr-form .input-group-btn button[type="submit"]:hover {
   box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
-}
+} */
 .form2 .form-control {
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
