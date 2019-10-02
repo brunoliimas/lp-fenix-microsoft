@@ -136,10 +136,26 @@ section .mbr-background-video-preview {
 .line{
   border-color: #5aac98;
 }
+.cta{
+  padding-bottom: 25px;
+}
 .cta-titulo{
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+.descricao-servicos{
+  padding-top: 20px;
+}
+.cta-saiba-mais-servico{
+  padding-bottom: 20px
+}
+.focus {
+  color: #43df50;
+}
+.hide {
+  display: none;
 }
 
 
